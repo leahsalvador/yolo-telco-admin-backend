@@ -1,0 +1,35 @@
+{
+    "users" : [
+        {
+            "address":"1",
+            "date_created": "0000-00-00",
+            "email": "1234@gmail.com",
+            "first_name": "1",
+            "last_name": "1",
+            "password": "1",
+            "phone": "1",
+            "user_id": "1"
+        },
+        {
+            "address":"manapla",
+            "date_created": "0000-00-00",
+            "email": "12334@gmail.com",
+            "first_name": "jay",
+            "last_name": "galang",
+            "password": "123",
+            "phone": "098776632",
+            "user_id": "2"
+        },
+        {
+            "address":"vicrtias",
+            "date_created": "0000-00-00",
+            "email": "12344343@gmail.com",
+            "first_name": "vince",
+            "last_name": "donz",
+            "password": "123",
+            "phone": "1323242432",
+            "user_id": "3"
+        }
+    ]
+}
+

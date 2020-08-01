@@ -1,0 +1,438 @@
+body{
+    background-color:white;
+}
+
+
+.wrapper {
+    width:98%;
+    height:fit-content;
+    background-color:white;
+    margin:0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.spacer{
+    height: 40px;
+}
+
+.spacer1{
+    height: 20px;
+}
+
+.form-holder{
+  
+    width:95%;
+    margin: auto;
+}
+
+.logo-container{
+    width:100%;
+    height: 110px;
+   
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo-holder{
+    width:30%;
+    height: 100%;
+    margin:auto;
+    background-image: url('/cubabto/vendor/logo/CUBABTO.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.cuba{
+    text-align:center;
+    font-weight: bold;
+    padding-top:30px;
+    padding-bottom:20px;
+}
+/*---------------------------------------------------------------------------------------------------------------------------*/
+.first{
+    padding-bottom:10px; 
+}
+
+.form-inputs{
+    width:100%;
+   
+}       
+
+.inputs{
+   border-top:0;
+   border-right:0;
+   border-left:0;
+   border-bottom:1px solid #000;
+   text-align: left;
+   outline: 0;
+}
+
+.group_name_input {
+    width:88%;
+}
+
+.personal {
+    font-weight:bold;
+    width:100%;
+    padding-bottom:20px;
+}
+
+.main-form{
+    width:100%;
+}
+.first-row-grid, .second-row-grid {
+display: grid;
+grid-template-columns: auto auto;
+
+}
+
+.first-grid, .second-grid{
+    padding-bottom: 10px;
+}
+
+.firstname_label,.middle-name_label {
+    width:100%;
+}
+
+.first_name,.last_name,.middle-name,.last_name,.trip_dates{width:88.5%;}.maiden-name{width:81%;}
+.phone{width:93.5%;}.email{width:91.8%;}.passport_number{width:85%;}.passport_exp_date{width:78%;}
+.address{width:91.8%;margin-bottom:10px;}.born{width:86%;margin-bottom:10px;}
+.gender{width:91%;}.occupation{width:90%;}.nationality{width:78%;}
+.applicable{width:63.5%;}.exp_date{width:86.2%;}.relationship{width:76%;}.how_travel{width:83%;}
+.last_time{width:82.5%;margin-bottom:10px;}.license{width:89.3%;margin-bottom:10px;}.n_accomodation{width:89.5%;margin-bottom:10px;}
+.roommate{width:86.5%;margin-bottom:10px;}.notes{width:90.3%;margin-bottom:10px;}.allergies{width:100%;}.allergies3{width:100%;margin-bottom:40px;}.i{width:25%;}
+.passport_visa{width:88.8%;}.name_afidavit{width:83%;}.address_afidavit{width:83%;}
+
+.pledge{
+    font-weight:bold;
+    margin-bottom: 40px;
+}
+
+.service_provider{
+    padding-top:30px;
+    padding-bottom:30px;
+    /* background-color:#233f91; */
+    font-weight: bold;
+   
+}
+
+.right-logo-holder{
+     height:90px;
+     width:100%;
+     position:relative;
+}
+
+.right-logo{
+    width:20%;
+    height: 80%;
+    background-image: url('/cubabto/vendor/logo/CUBABTO.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    position:absolute;
+    right:0;
+    bottom:0;
+}
+
+.print_name{
+    width:60%;
+}
+
+.visa{
+    margin-left:40px;
+    width:220px;
+    background-color:#1e1e1e;
+    text-align:center;
+    color: #fff;
+    height: 220px;
+    position:relative;
+    border-radius:50%;
+}
+
+.visa div{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    font-size:20px;
+    line-height:8px;
+   
+}
+
+p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+label, p, li{
+    font-size:14px;
+ }
+
+
+
+ .signature-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+ }
+
+ .sign-grid1{
+     display:flex;
+ }
+
+ .l_initial{
+     padding-right: 20px;
+ }
+
+ @media only screen and (min-width: 769px) and (max-width: 1130px){
+    .group_name_input {
+        width:99%;
+    }
+
+    .first_name,.last_name,.middle-name,.last_name,.trip_dates{width:80%;}.maiden-name{width:68%;}
+    .phone{width:88.9%;}.email{width:85.5%;}.passport_number{width:74.5%;}.passport_exp_date{width:62.5%;}
+    .address{width:86.5%;margin-bottom:10px;}.born{width:66.5%;margin-bottom:10px;}
+    .gender{width:84.5%;}.occupation{width:82.5%;}.nationality{width:65.5%;}
+    .applicable{width:50%;}.exp_date{width:73.5%;}.relationship{width:63%;}.how_travel{width:61%;}
+    .last_time{width:60%;margin-bottom:10px;}.license{width:71.8%;margin-bottom:10px;}.n_accomodation{width:80.5%;margin-bottom:10px;}
+    .roommate{width:75.5%;margin-bottom:10px;}.notes{width:82%;margin-bottom:10px;}.allergies{width:98%;}.allergies3{width:100%;margin-bottom:40px;}.i{width:25%;}
+    .passport_visa{width:88.8%;}.name_afidavit{width:83%;}.address_afidavit{width:83%;}.country{width:66%}
+
+ }
+
+/*-----------------------------------------------------------------------*/
+
+@media only screen and (max-width: 768px){
+    .wrapper {
+        width: 98%;
+        height:fit-content;
+        background-color:white;
+        margin:0 auto;
+        box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.2);
+    }
+    .spacer{
+        height: 20px;
+    }
+    
+    .spacer1{
+        height: 100px;
+    }
+    .logo-container{
+        width:100%;
+        height: 80px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    
+    .logo-holder{
+        width:40%;
+        height: 100%;
+        margin:auto;
+        background-image: url('/cubabto/vendor/logo/CUBABTO.png');
+        background-size:contain;
+        background-repeat: no-repeat;
+       
+    }
+
+    .cuba{
+        text-align:center;
+        font-weight: bold;
+        padding-top:10px;
+        padding-bottom:10px;
+        font-size: 18px;
+    }
+
+    .first{
+        padding-bottom:10px; 
+    }
+
+    label, p, li{
+        font-size:11px !important;
+        word-wrap: break-word;
+     }
+    
+    .form-inputs{
+        width:100%;
+       
+    }       
+    
+    .inputs{
+       border-top:0;
+       border-right:0;
+       border-left:0;
+       border-bottom:1px solid #000;
+       text-align: left;
+       outline: 0;
+    }
+    
+    .group_name_input {
+        width:100%;
+    }
+    
+    .personal {
+        font-weight:bold;
+        width:100%;
+        padding-bottom:20px;
+    }
+    
+    .main-form{
+        width:100%;
+    }
+    .first-row-grid, .second-row-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    }
+    
+    .first-grid, .second-grid{
+        padding-bottom: 10px;
+    }
+    
+    .firstname_label,.middle-name_label {
+        width:100%;
+    }
+    
+    .first_name,.last_name,.middle-name,.last_name,.trip_dates{width:88%;}.maiden-name{width:88%;}
+.phone{width:88%;}.email{width:88%;}.passport_number{width:88%;}.passport_exp_date{width:88%;}
+.address{width:88%;margin-bottom:10px;}.born{width:96%;margin-bottom:10px;}
+.gender{width:88%;}.occupation{width:88%;}.nationality{width:113%;}
+.applicable{width:88.5%;}.exp_date{width:88%;}.relationship{width:113%;}.how_travel{width:96%;}
+.last_time{width:96%;margin-bottom:10px;}.license{width:96%;margin-bottom:10px;}.n_accomodation{width:96%;margin-bottom:10px;}
+.roommate{width:96%;margin-bottom:10px;}.notes{width:96%;margin-bottom:10px;}.allergies{width:100%;}.allergies3{width:100%;margin-bottom:40px;}.i{width:25%;}
+.passport_visa{width:88.8%;}.name_afidavit{width:83%;}.address_afidavit{width:83%;}
+    
+    .pledge{
+        font-weight:bold;
+        /* font-size:14px; */
+        margin-bottom: 40px;
+    }
+    
+    .service_provider{
+        padding-top:30px;
+        padding-bottom:30px;
+        font-size:15px;
+        /* background-color:#233f91; */
+        font-weight: bold;
+       
+    }
+    
+    .right-logo-holder{
+         height:90px;
+         width:100%;
+         position:relative;
+    }
+    
+    .right-logo{
+        width:20%;
+        height: 80%;
+        background-image: url('/cubabto/vendor/logo/CUBABTO.png');
+        background-size:contain;
+        background-repeat: no-repeat;
+        position:absolute;
+        right:0;
+        bottom:0;
+    }
+    
+    .print_name{
+        width:60%;
+    }
+    
+    .visa{
+        margin-left:40px;
+        width:100px;
+        background-color:#1e1e1e;
+        text-align:center;
+        color: #fff;
+        height: 100px;
+        position:relative;
+        border-radius:50%;
+    }
+    
+    .visa div{
+        position:absolute;
+        left:50%;
+        top:50%;
+        transform:translate(-50%, -60%);
+        font-size:14px;
+        line-height:8px;
+       
+    }
+
+    .visa div h1{
+        font-size:20px;
+    }
+
+    p{
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    
+    .signature-grid{
+        display: grid;
+        grid-template-columns: auto;
+     }
+     .sign-grid1{
+        display:block;
+    }
+   
+    .l_initial{
+        padding-right: 20px;
+    }
+
+    .sign-pad{
+        width:100% !important;
+    }
+}
+
+
+/*--------------------------------------------------------------------------------------*/
+/* @media only screen and (max-width: 1210px){
+    .wrapper {
+        width: 95%;
+        height:fit-content;
+        background-color:white;
+        margin:0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    .visa{
+        margin-left:40px;
+        width:15%;
+        background-color:#1e1e1e;
+        text-align:center;
+        color: #fff;
+        height: 100px;
+        position:relative;
+        border-radius:50%;
+    }
+    
+    .visa div{
+        position:absolute;
+        left:50%;
+        top:50%;
+        transform:translate(-50%, -50%);
+        font-size:14px;
+        line-height:8px;
+       
+    }
+
+    .visa div h1{
+        font-size:20px;
+    }
+ 
+} */
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+

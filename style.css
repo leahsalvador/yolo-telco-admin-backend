@@ -1,0 +1,785 @@
+/*
+ Theme Name:   Fir Bay
+ Theme URI:    Theme URI: http://www.elegantthemes.com/gallery/divi/
+ Template:     Divi
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  divi-child
+*/
+
+@import url("../Divi/style.css");
+
+body {
+    font-size: 16px;
+}
+
+body a {
+    color: #607d8b;
+}
+
+.dash:after {
+    content: "";
+    display: block;
+    border-top: 4px solid;
+    width: 100px;
+    margin: 20px 0;
+}
+
+#page-container {
+    padding-top: 112px !important;
+}
+
+#main-header {
+    -webkit-box-shadow: 0 0 7px rgba(0,0,0,.1)!important;
+    -moz-box-shadow: 0 0 7px rgba(0,0,0,.1)!important;
+    box-shadow: 0 0 7px rgba(0,0,0,.1)!important;
+}
+
+#logo {
+    width: 250px;
+    max-height: inherit;
+    margin-top: 25px;
+    background: #FFF;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+#et-top-navigation {
+    padding-top: 0 !important;
+}
+
+#top-menu {
+    background: #f89b63;
+    border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+}
+
+#top-menu a {
+    text-transform: uppercase;
+    padding: 0 !important;
+    color: #FFF;
+}
+
+#top-menu li.current-menu-item>a, 
+#top-menu li.current-menu-ancestor>a, 
+header.et-fixed-header #top-menu li.current-menu-item>a, 
+header.et-fixed-header #top-menu li.current-menu-ancestor>a {
+    color: #333 !important;
+}
+
+#top-menu ul {
+    border: 0;
+    margin-top: 10px;
+}
+
+#top-menu ul a {
+    color: #333 !important;
+}
+
+#top-detail {
+    overflow: hidden;
+    padding: 15px 0;
+}
+
+#top-detail .et_pb_module {
+    float: right;
+    margin: 0 0 0 20px !important;
+}
+
+#top-detail .et_pb_module_header {
+    padding: 0;
+    color: #333 !important;
+}
+
+#top-detail .et-pb-icon {
+    color: #607D8B !important;
+}
+
+#top-detail p {
+    color: #666;
+    font-weight: normal;
+    font-family: "Open Sans",Arial,sans-serif;
+}
+
+#contact #top-detail .container, 
+.contact #top-detail .container {
+    width: auto;
+    max-width: inherit;
+    padding-top: 0;
+}
+
+#contact #top-detail .et_pb_module, 
+.contact #top-detail .et_pb_module {
+    float: none;
+    margin: 0 !important;
+    clear: both;
+}
+
+#main-content {
+    background-color: #f9f9f9;
+}
+
+#left-area {
+    min-height: 600px;
+}
+
+.main_title, 
+.entry-title {
+    color: #333;
+}
+
+.love em {
+    background: url(../../uploads/2018/08/Dog-Feet.png) no-repeat center;
+        background-size: 100%;
+    color: transparent;
+    font-size: 0;
+    width: 40px;
+    display: inline-block;
+    height: 40px;
+}
+
+.services .et_pb_main_blurb_image {
+    float: right;
+    margin: -10px 0 0 10px;
+    width: 50px;
+    height: 50px;
+    background-size: 100% !important;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+}
+
+.services .rightside .et_pb_main_blurb_image {
+    float: left;
+    margin: -10px 10px 0 0;
+}
+
+.services .et-pb-icon {
+    display: none;
+}
+
+.services .et_pb_blurb_container {
+    overflow: hidden;
+}
+
+.services .wellness .et_pb_main_blurb_image {
+    background: url(https://cdn4.iconfinder.com/data/icons/hospital-19/512/14_hospital-128.png) no-repeat;
+}
+
+.services .nutrition .et_pb_main_blurb_image {
+    background: url(https://cdn4.iconfinder.com/data/icons/banking-and-finance/500/finance-scale-128.png) no-repeat;
+}
+
+.services .dermatology .et_pb_main_blurb_image {
+    background: url(https://cdn2.iconfinder.com/data/icons/social-flat-buttons-3/512/zynga-128.png) no-repeat;
+}
+
+.services .ophthalmology .et_pb_main_blurb_image {
+    background: url(https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/eye-128.png) no-repeat;
+}
+
+.services .cardiovascular .et_pb_main_blurb_image {
+    background: url(https://cdn2.iconfinder.com/data/icons/blue-life/512/music-128.png) no-repeat;
+    background-color: #00aeef;
+}
+
+.services .respiratory .et_pb_main_blurb_image {
+    background: url(../../themes/FirBay/images/lungs-2803208_640.png) no-repeat center;
+}
+
+.services .gastrointestinal .et_pb_main_blurb_image {
+    background: url(../../themes/FirBay/images/icons8-colon-40.png) no-repeat center;
+    background-size: 80% !important;
+    background-color: #fff;
+}
+
+.services .musculoskeletal .et_pb_main_blurb_image {
+    background: #607D8B url(../../themes/FirBay/images/icons8-bone-48.png) no-repeat center;
+    background-size: 80% !important;
+}
+
+.services .urinary .et_pb_main_blurb_image {
+    background: #f16d6a url(../../themes/FirBay/images/icons8-kidney-48.png) no-repeat center;
+    background-size: 80% !important;
+}
+
+.services .hospice  .et_pb_main_blurb_image {
+    background: url(https://cdn4.iconfinder.com/data/icons/hospital-19/512/7_hospital-128.png) no-repeat;
+}
+
+.services .oral .et_pb_main_blurb_image {
+    background: url(https://cdn3.iconfinder.com/data/icons/dental-blue-icons/128/Untitled-5.png) no-repeat;
+}
+
+.services .minor .et_pb_main_blurb_image {
+    background: url(https://cdn3.iconfinder.com/data/icons/flat-circle-content/512/flat-style-circle-cut-2-128.png) no-repeat;
+}
+
+.services .laboratory .et_pb_main_blurb_image {
+    background: url(https://cdn4.iconfinder.com/data/icons/hospital-19/512/6_hospital-128.png) no-repeat;
+}
+
+.services .euthanasia .et_pb_main_blurb_image {
+    background: url(https://cdn2.iconfinder.com/data/icons/circle-icons-1/64/rainbow-128.png) no-repeat;
+}
+
+.services .nail .et_pb_main_blurb_image {
+    background: url(https://cdn2.iconfinder.com/data/icons/Snow/Snow/snow/Paw.png) no-repeat;
+}
+
+#blogMdl .et_pb_column {
+    width: auto !important;
+    float: none;
+    margin: 0 !important;
+}
+
+#blogMdl .et_pb_team_member_image {
+    height: auto;
+    width: 100%;
+    max-width: initial;
+}
+
+#blogMdl .et_pb_team_member_description p {
+    display: none;
+}
+
+#blogMdl .et_pb_team_member_description p.et_pb_member_position, 
+#blogMdl .et_pb_team_member_description .rm.dn {
+    display: block;
+}
+
+
+.contact input, 
+.contact textarea {
+    background: #FFF !important;
+}
+
+.contact .et_pb_main_blurb_image {
+    display: block !important;
+    float: right;
+    margin-left: 20px;
+}
+
+.contact .et_pb_blurb_container {
+    display: block !important;
+}
+
+.contact .et-pb-icon, 
+.contact .et_pb_blurb_description {
+    color: #51332b !important;
+    text-align: right;
+}
+
+.contact  .et_pb_blurb_content h4 {
+    color: #333 !important;
+    text-align: right;
+    padding: 0;
+}
+
+.contact .et_pb_contact p .et_contact_error {
+    border: 0 #F44336!important;
+}
+
+.timely {
+    border: 1px solid #e5e5e5;
+    border-top: 0;
+}
+
+.ai1ec-views-dropdown {
+    margin-right: 10px;
+}
+
+.timely .ai1ec-btn-sm {
+    padding: 10px 10px 5px;
+}
+
+.ai1ec-btn-group-xs > .ai1ec-btn {
+    padding: 5px 5px 1px;
+}
+
+.ai1ec-agenda-view .ai1ec-date {
+    padding-top: 8px;
+}
+
+.single .ai1ec-single-event {
+    border-top: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+
+.single .ai1ec-actions {
+    margin-right: 15px;
+}
+
+#sidebar .timely {
+    padding: 0;
+    border: 0;
+}
+
+.blog.list {
+    padding: 0 !important;
+    columns: 14em;
+    -webkit-columns: 14em;
+    -moz-columns: 14em;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    width: 100%;
+    margin-top: -22px;
+}
+
+.blog.list li {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    -webkit-column-break-inside: avoid;
+    break-inside: avoid-column;
+    padding-top: 22px;
+    padding-bottom: 1px;
+}
+
+.blog.list .post {
+    -webkit-box-shadow: 0 1px 6px rgba(57,73,76,.35);
+    -moz-box-shadow: 0 1px 6px rgba(57,73,76,.35);
+    box-shadow: 0 1px 6px rgba(57,73,76,.35);
+    padding: 20px;
+}
+
+.blog.list .thumb {
+    display: block;
+    margin: -20px -20px 20px;
+}
+
+.blog.list .readmore {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+    color: #333;
+}
+
+.blog.list .style2 .post, 
+.blog.list .styleImg .post {
+    background-size: cover !important;
+}
+
+.blog.list .style2 .thumb, 
+.blog.list .styleImg .thumb {
+    display: none;
+}
+
+.blog.list .style2 h3 {
+    background: #00000078;
+    margin: -20px 0;
+    padding: 80px 20px;
+    color: #FFF;
+}
+
+.blog.list .style3 .thumb {
+    margin-top: 20px;
+    position: relative;
+}
+
+.blog.list .style4 h3 {
+    background: #f89b63;
+    color: #333;
+    padding: 20px;
+    margin: -50px 0 -20px;
+    position: relative;
+    z-index: 1;
+}
+
+.blog.list .styleImg .post, 
+.blog.list .styleVid .thumb {
+    position: relative;
+}
+
+.blog.list .styleImg .post:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.5;
+}
+
+.blog.list .styleImg h3 {
+    color: #FFF;
+    margin-top: 150px;
+    position: relative;
+}
+
+.blog.list .styleImg h3:before {
+    content: "PHOTOGRAPHY";
+    display: block;
+    font-size: 13px;
+    margin-bottom: 20px;
+    font-family: "Open Sans",Arial,sans-serif;
+    text-decoration: underline;
+}
+
+.blog.list .styleVid .et-pb-icon {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    color: #F44336;
+}
+
+.et_pb_widget ul {
+    padding-left: 25px;
+}
+
+.et_pb_widget ul li {
+    margin-bottom: .5em;
+    list-style-type: square;
+}
+
+.page-new-patient-form #main-content:before, 
+.page-next #main-content:before, 
+.page-new-patient-form #main-content:before, 
+.page-pet-insurance-providers #main-content:before {
+    display: block;
+    content: "";
+    padding: 12%;
+    background: url(../../uploads/2018/07/chihuahua-dog-puppy-cute-39317.jpeg) fixed no-repeat;
+    background-size: cover;
+}
+
+.page-new-patient-form .main_title, 
+.page-new-patient-form .WPMJfield, 
+.page-new-patient-form .back.WPMJasBtn {
+    display: none;
+}
+
+.page-new-patient-form .dttl, 
+.page-new-patient-form .db.WPMJfield, 
+.page-new-patient-form #submitField {
+    display: block;
+}
+
+#consentForm .txt.WPMJfield, 
+#consentForm .txta.WPMJfield, 
+#consentForm .mail.WPMJfield {
+    border: 1px dashed #f89b63;
+    overflow: hidden;
+    margin: 0 0 5px;
+    clear: both;
+}
+
+#consentForm .txt.WPMJfield:before, 
+#consentForm .txta.WPMJfield:before, 
+#consentForm .mail.WPMJfield:before {
+    width: 1px;
+    height: 100%;
+    content: "";
+    left: 20%;
+    top: 0;
+    position: absolute;
+    z-index: 1;
+    border-left: 1px dashed #f89b63;
+}
+
+#consentForm .WPMJfldLabel {
+        float: left;
+    width: 20%;
+    padding: 10px 0 0 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+#consentForm .WPMJfld {
+    float: left;
+    display: block;
+    width: 80%;
+    border: 0;
+    background: #f9f9f9;
+    margin: 1px 0;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+}
+
+#consentForm .rad .WPMJfld {
+    width: auto;
+    float: none;
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+     border: 1px dashed #f89b63;
+}
+
+#consentForm #emailAddressField, 
+#consentForm #microchipField {
+    margin-bottom: 50px;
+}
+
+#consentForm .err .WPMJfld {
+    border: 0 !important;
+}
+
+#consentForm .WPMJerror.WPMJnotice {
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    font-size: 11px;
+    padding: 0 5px;
+    right: 5px;
+    margin: 6px 0 0 !important;
+}
+
+#consentForm .WPMJfldLabel em, 
+#consentForm .WPMJerror.WPMJnotice:before, 
+#consentForm .WPMJfield .fld.asDiA:after, 
+#consentForm .initial.WPMJfield:before, 
+#consentForm #ownerSignatureField.WPMJfield:before, 
+#consentForm #dateField.WPMJfield:before {
+    display: none;
+}
+
+#consentForm .initial.WPMJfield, 
+#consentForm #yesnoField.WPMJfield, 
+#consentForm #ownerSignatureField.WPMJfield, 
+#consentForm #dateField.WPMJfield {
+    border: 0;
+    margin-bottom: 50px;
+}
+
+#consentForm .initial .WPMJfldLabel {
+    padding-left: 0;
+    width: 15%;
+}
+
+#consentForm .initial .WPMJfld, 
+#consentForm #ownerSignatureField .WPMJfld, 
+#consentForm #dateField .WPMJfld {
+    border-bottom: 1px dashed #f89b63 !important;
+    width: 85%;
+}
+
+#consentForm #ownerSignatureField.WPMJfield {
+    margin-bottom: 20px;
+}
+
+#consentForm #ownerSignatureField .WPMJfldLabel, 
+#consentForm #dateField .WPMJfldLabel {
+    padding-left: 0;
+    width: 35%;
+    text-align: right;
+}
+
+#consentForm #ownerSignatureField .WPMJfld, 
+#consentForm #dateField .WPMJfld {
+    width: 65%;
+}
+
+#consentForm #insuranceField {
+    border: 1px solid #ddd;
+    padding: 30px;
+}
+
+#consentForm #submitField {
+    float: right;
+    margin: 0 0 0 5px;
+}
+
+#consentForm button.WPMJfld {
+    width: auto;
+    background: #2185b5;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#consentForm #backnextField {
+    float: right;
+}
+
+#consentForm #backnextField a {
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 6px 12px;
+    font-weight: bold;
+    margin-top: 1px;
+}
+
+#consentForm #backnextField a.back.db {
+    display: block !important;
+}
+
+.page-next .db.WPMJfield, .page-next .db.WPMJfield .WPMJfld {
+    background: #FFFF !important;
+}
+
+.insurance {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+#et-footer-nav {
+    background-color: #333;
+}
+
+.bottom-nav {
+    padding: 5px 5px 5px 15px;
+    background: #FFF;
+    display: inline-block;
+    margin: 30px 0 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.bottom-nav li {
+    padding: 0 10px 0 0;
+}
+
+.bottom-nav a, 
+.bottom-nav li.current-menu-item>a  {
+    color: #333 !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#footer-bottom {
+    background-color: #333;
+    /* padding: 0 0 20px; */
+}
+
+#footer-info {
+    float: none;
+}
+
+#footer-info, 
+.et-social-icon a, 
+.bottom-nav li.current-menu-item>a {
+    color: #FFF;
+}
+
+#footer-info a {
+    color: #f89b63;
+}
+
+#raffleForm .WPMJfield {
+    margin-bottom: 5px;
+}
+
+#raffleForm button.WPMJfld {
+    width: 100%;
+}
+
+#appointmentForm {
+    box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+    -moz-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+    -webkit-box-shadow: rgba(0,0,0,0.2) 0px 1px 3px;
+    border-top: 1px solid #eee;
+    padding: 40px;
+    margin-top: 68px;
+}
+
+#appointmentForm .WPMJfield {
+    display: none;
+}
+
+#appointmentForm .owner.WPMJfield {
+    display: block;
+}
+
+#appointmentForm #headingField {
+    position: absolute;
+    background: #f89b63;
+    width: 100%;
+    left: 0;
+    top: -68px;
+    padding: 20px 40px;
+    display: block !important;
+}
+
+#appointmentForm #headingField h2 {
+    color: #FFF;
+    padding: 0;
+}
+
+#appointmentForm h4 {
+    color: #333;
+}
+
+.home #appointmentForm {    
+  	margin-top: 0;
+    margin-left: 320px;
+}
+
+.home #appointmentForm #headingField {
+    width: 300px;
+    height: 300px;
+    border-radius: 3000px;
+  	-moz-border-radius: 3000px;
+  	-webkit-border-radius: 3000px;
+    left: -320px;
+    top: 50px;
+}
+
+.home #appointmentForm #headingField .WPMJfldBase {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+.make-appointment {
+    text-transform: uppercase;
+    font-size: 13px;
+    float: right;
+    border: 1px dashed;
+    padding: 2px 6px 0;
+}
+
+.home .make-appointment {
+    display: none;
+}
+
+#sidebar .make-appointment {
+    float: none;
+    text-align: center;
+    color: #f89b63;
+    font-weight: bold;
+  	display: block;
+}
+
+#appointmentMdl .WPMJmodalBase {
+    padding: 0;
+}
+
+a.instagram {
+    float: right;
+    width: 30px;
+    height: 30px;
+    display: block;
+    background: url(https://cdn0.iconfinder.com/data/icons/shift-logotypes/32/Instagram-128.png) no-repeat;
+    background-size: 100%;
+    margin-left: 10px;
+}
